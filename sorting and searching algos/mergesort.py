@@ -1,5 +1,3 @@
-arr = [2,1343,3,34,3,4,4,5654,3,345,34,64,7,34,7,5]
-
 def mergesort(arr):
     if len(arr) <= 1:
         return arr
@@ -28,4 +26,3 @@ def merge(a,b):
         j += 1
     return merged  
 
-print(mergesort(arr))   
